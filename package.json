@@ -1,0 +1,23 @@
+{
+  "name": "gimnasio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "purgecss --css sass/custom.css --content index.html -o sass/reducido.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevinM1466/ProyectoWeb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KevinM1466/ProyectoWeb/issues"
+  },
+  "homepage": "https://github.com/KevinM1466/ProyectoWeb#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
