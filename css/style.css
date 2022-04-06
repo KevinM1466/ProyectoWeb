@@ -1,0 +1,118 @@
+/* Globales */
+
+
+
+h1, h2, h3 {
+    text-align: center;
+    color: black;
+    font-family: "Bitter", serif;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3.2rem;
+}
+
+h3 {
+    font-size: 2.4rem;
+}
+
+/* nosotros */
+
+.nosotros {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+}
+
+@media (min-width: 768px) {
+    .nosotros {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
+}
+
+.dos {
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 2rem;
+}
+
+.nosotros__imagen {
+    grid-row: 1 / 2;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .nosotros__imagen {
+        grid-column: 2 / 3;
+    }
+}
+
+.tres {
+    grid-column: 2 / 4;
+}
+
+.centrar-texto {
+    text-align: center;
+}
+
+.curso {
+    padding: 3rem 0;
+    border-bottom: 1px solid var(--gris);
+}
+
+@media (min-width: 768px) {
+    .curso {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 2rem;
+    }
+}
+
+.curso:last-of-type {
+    border: none;
+}
+
+.curso__label {
+    font-family: var(--fuenteHeading);
+    font-weight: bold;
+}
+
+.curso__info {
+    font-weight: normal;
+}
+
+.curso__label,
+.curso__info {
+    font-size: 2rem;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.fuente {
+    font-size: 2rem;
+    text-align: left;
+    font-weight: bold;
+}
+
+.dos {
+    font-size: 1.5rem
+}
+
+.span_logo {
+    font-weight: 700;
+}
+
+.footer {
+    background-color: var(--negro);
+    padding-bottom: 3rem;
+    margin-top: 4rem;
+}
